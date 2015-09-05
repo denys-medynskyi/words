@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.1.1'
 gem 'rails', '4.2.1'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -45,8 +44,6 @@ group :production do
   gem 'rails_12factor'
 end
 group :test do
-  gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
-  gem 'selenium-webdriver'
 end
